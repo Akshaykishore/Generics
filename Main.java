@@ -13,7 +13,7 @@ public class Main {
 
         // With Generics
         List<String> listwithGeneric = new ArrayList<String>();
-        list.add("hello");
+        listwithGeneric.add("hello");
         String s1 = listwithGeneric.get(0);
         System.out.println(s1);
     }
